@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("bakgrund2.png");
+  width: 100%;
+  height: 800px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.löv {
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 3%;
+  animation: fall 4s linear infinite;
+}
+
+@keyframes fall {
+  50% {
+    transform: translateY(75vh) rotatey(180deg);
+  }
+  100% {
+    transform: translateY(150vh) rotatey(360deg);
+  }
+}
+
+.ruta {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 600px;
+  background-color: rgb(49, 49, 49);
+}
+
+.box {
+  height: 80%;
+  width: 75%;
+}
+
+.iconflex {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.icon {
+  position: absolute;
+  max-width: 25%;
+  height: 50px;
+}
+
+.sign {
+  position: relative;
+  font-size: 25px;
+  margin-top: 25%;
+  color: white;
+}
+
+input {
+  box-sizing: border-box;
+  color: white;
+  font-size: 15px;
+  height: 10%;
+  background-color: rgb(49, 49, 49);
+  width: 100%;
+  padding: 3% 5%;
+  border: 2px solid grey;
+  border-radius: 4px;
+}
+
+.username {
+  margin-top: 10%;
+  color: white;
+}
+
+.password {
+  margin-top: 10%;
+  color: white;
+}
+
+.lösen {
+  background-image: url(hide.png);
+  background-position: 330px 13px;
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+
+.logflex {
+  display: flex;
+  justify-content: center;
+  margin-top: 18%;
+  width: 100%;
+  height: 12%;
+}
+
+.logknapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 30%;
+  height: 100%;
+  background-color: tomato;
+}
+
+.log {
+  color: white;
+  font-size: 20px;
+}
+
+.over:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .ruta {
+    height: 100%;
+    width: 100%;
+  }
+  .lösen {
+    background-image: none;
+  }
+}
+
+@media screen and (min-height: 800px) and (max-width: 600px) {
+  body {
+    height: 900px;
+  }
+}

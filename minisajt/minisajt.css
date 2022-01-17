@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  overflow-y: visible;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  height: 55px;
+  background-color: black;
+}
+
+#mobile-menu-icon {
+  margin-left: -10%; /* gör att hamburgerikonen ligger så långt till höger som möjligt*/
+  display: none;
+  color: white;
+  font-size: 30px;
+}
+
+.icon {
+  margin-top: 0.5%;
+  margin-left: 1%;
+  width: 50px;
+  height: 75%;
+}
+
+.titel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  margin-left: 0%;
+}
+
+.ark {
+  color: rgb(219, 216, 216);
+  width: 90px;
+  margin-left: -25%;
+}
+
+.survival {
+  display: flex;
+  color: white;
+  font-size: 15px;
+}
+
+.listbox1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  list-style: none;
+  width: 25%;
+  margin-left: -2%;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 25%;
+}
+
+.listboxitems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  list-style: none;
+  width: 20%;
+  margin-left: 26%;
+}
+
+.fas {
+  font-size: 20px;
+}
+
+.sökbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 25%;
+}
+
+.globbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 25%;
+  margin-right: 10%;
+}
+
+.sign {
+  display: flex;
+  font-size: 15px;
+  margin-left: 15%;
+}
+
+.signflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  margin-left: -10%;
+  color: white;
+}
+
+.fa-user {
+  display: flex;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  font-size: 15px;
+  background-color: rgb(252, 252, 80);
+  width: 150px;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.framsida {
+  width: 100%;
+  margin-left: 0%;
+}
+
+.bakgrund {
+  margin-top: 0%;
+  width: 100%;
+}
+
+.bilder {
+  display: flex;
+  align-items: center;
+  margin-top: -70%;
+  margin-left: 3%;
+}
+
+.aberration {
+  width: 42%;
+  border: 4px solid lightblue;
+  transition: 0.2s;
+}
+
+.genesis {
+  width: 48%;
+  margin-left: 5.5%;
+  border: 4px solid lightblue;
+  transition: 0.2s;
+}
+
+.bilder2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 94%;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+.evolved {
+  width: 27.5%;
+  border: 4px solid lightblue;
+  transition: 0.2s;
+}
+
+.eld {
+  width: 27.5%;
+  border: 4px solid lightblue;
+  transition: 0.2s;
+}
+
+.extinction {
+  width: 27.5%;
+  border: 4px solid lightblue;
+  transition: 0.2s;
+}
+
+.loadflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+  width: 100%;
+  height: 2.3%;
+}
+
+.load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.404);
+  border: 2px solid lightblue;
+  color: white;
+  height: 100%;
+  width: 11%;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 20%;
+  margin-top: 3.4%;
+  background-color: black;
+}
+
+.listboxitems2flex {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+
+.listboxitems2 {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 30%;
+  margin-top: 9%;
+}
+
+.fab {
+  font-size: 30px;
+  color: lightgray;
+}
+
+.info {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 92%;
+  margin-top: 18%;
+  margin-left: 3%;
+}
+
+.kontakt {
+  list-style-type: none;
+  color: white;
+}
+
+.tider {
+  list-style-type: none;
+  color: white;
+}
+
+.adress {
+  list-style-type: none;
+  color: white;
+}
+
+.pegi {
+  align-self: center;
+  max-width: 60px;
+  max-height: auto;
+  margin-left: 25%;
+  margin-top: -3%;
+}
+
+.download:hover {
+  opacity: 90%;
+  cursor: pointer;
+}
+
+.text:hover {
+  border-bottom: 4px solid yellowgreen;
+}
+
+.over:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.over2:hover {
+  cursor: pointer;
+}
+
+.over3:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.over4:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.555);
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1100px) {
+  #mobile-menu-icon {
+    display: block; /* visar hamburger-ikonen */
+  }
+  .listbox1 {
+    display: none !important;
+  }
+  .listboxitems {
+    display: none !important;
+  }
+  .ark {
+    display: none !important;
+  }
+  nav {
+    align-items: center;
+  }
+  .info {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .load {
+    font-size: 10px;
+  }
+  .listboxitems2 {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .load {
+    font-size: 7px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .load {
+    font-size: 5px;
+  }
+}
